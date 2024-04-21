@@ -15,14 +15,17 @@
 
 ## Change-log:
 
-* 06/04/2023 - Initial release
-* 04/04/2023 - Foundation code
+* 19/04/2023 - Initial release
+* 13/04/2023 - Foundation code
 
 ## Compilation
 type the following commands:
-gcc -c histogram.adb
-gnatbind histogram
-gnatlink histogram
+
+`gcc -c histogram.adb`
+
+`gnatbind histogram`
+
+`gnatlink histogram`
 
 
 ## Misc.
@@ -33,7 +36,7 @@ gnatlink histogram
 
 ## Todo
 * Need to use SDL2 to implement internal plotting routine.
-* Logical bugs still exit, and so this is very much still a work in progress.
+* pretty sure bugs have been ironed out.
 
 ## Author(s)
 Jason Bou-Samra
