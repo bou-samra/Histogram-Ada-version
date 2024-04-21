@@ -1,0 +1,123 @@
+V "GNAT Lib v13"
+M P W=b
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_SECONDARY_STACK
+RV NO_DEFAULT_INITIALIZATION
+
+U histogram%b		histogram.adb		b4ba0566 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.elementary_functions%s  a-nuelfu.ads  a-nuelfu.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+Z system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+Z system.val_flt%s	s-valflt.ads		s-valflt.ali
+
+D ada.ads		20240316000000 76789da1 ada%s
+D a-comlin.ads		20240316000000 4aa66568 ada.command_line%s
+D a-except.ads		20240316000000 2a7d8d70 ada.exceptions%s
+D a-flteio.ads		20240316000000 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20240316000000 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20240316000000 40018c65 ada.io_exceptions%s
+D a-numeri.ads		20240316000000 84bea7a3 ada.numerics%s
+D a-nuelfu.ads		20240316000000 dc1b3a37 ada.numerics.elementary_functions%s
+D a-ngelfu.ads		20240316000000 58d8ffc8 ada.numerics.generic_elementary_functions%s
+D a-stream.ads		20240316000000 119b8fb3 ada.streams%s
+D a-string.ads		20240316000000 90ac6797 ada.strings%s
+D a-sttebu.ads		20240316000000 f1ad67a2 ada.strings.text_buffers%s
+D a-stuten.ads		20240316000000 c6ced0ae ada.strings.utf_encoding%s
+D a-tags.ads		20240316000000 9eaa38c6 ada.tags%s
+D a-textio.ads		20240316000000 5c2c6153 ada.text_io%s
+D a-tiflio.ads		20240316000000 9fe024a2 ada.text_io.float_io%s
+D a-tiinio.ads		20240316000000 e58fa6fb ada.text_io.integer_io%s
+D a-unccon.ads		20240316000000 0e9b276f ada.unchecked_conversion%s
+D histogram.adb		20240421091652 69eaf56e histogram%b
+D interfac.ads		20240316000000 15f799c2 interfaces%s
+D i-cstrea.ads		20240316000000 e53d8b8e interfaces.c_streams%s
+D system.ads		20240316000000 426dafb8 system%s
+D s-crtl.ads		20240316000000 8a0692f8 system.crtl%s
+D s-exctab.ads		20240316000000 91bef6ef system.exception_table%s
+D s-fatflt.ads		20240316000000 11beb392 system.fat_flt%s
+D s-fatgen.ads		20240316000000 d28c6cfe system.fat_gen%s
+D s-ficobl.ads		20240316000000 dc5161d4 system.file_control_block%s
+D s-parame.ads		20240316000000 d494a4a6 system.parameters%s
+D s-powflt.ads		20240316000000 a51ab9b8 system.powten_flt%s
+D s-putima.ads		20240316000000 17291fe4 system.put_images%s
+D s-secsta.ads		20240316000000 578279f5 system.secondary_stack%s
+D s-soflin.ads		20240316000000 df77073e system.soft_links%s
+D s-stache.ads		20240316000000 0b81c1fe system.stack_checking%s
+D s-stalib.ads		20240316000000 1c9580f6 system.standard_library%s
+D s-stoele.ads		20240316000000 ab5468e4 system.storage_elements%s
+D s-stoele.adb		20240316000000 8f5a9db6 system.storage_elements%b
+D s-traent.ads		20240316000000 c81cbf8c system.traceback_entries%s
+D s-unstyp.ads		20240316000000 fa2a7f59 system.unsigned_types%s
+D s-valflt.ads		20240316000000 78fc9326 system.val_flt%s
+D s-valrea.ads		20240316000000 f0598c00 system.val_real%s
+D s-wchcon.ads		20240316000000 d9032363 system.wch_con%s
+G a e
+G c Z b b [histogram standard 14 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 19|8r6 8r45 9r6 9r45 10r6 10r45 11r6 11r45 12r6 12r45
+X 2 a-comlin.ads
+36K13*Command_Line 144e21 19|9w10 9r49
+X 4 a-flteio.ads
+20K13*Float_Text_IO[16|46] 19|12w10 12r49
+X 5 a-inteio.ads
+18K13*Integer_Text_IO[17|46] 19|11w10 11r49
+X 7 a-numeri.ads
+16K13*Numerics 35e17 19|10r10 10r49
+X 8 a-nuelfu.ads
+18K22*Elementary_Functions[9|39] 19|10w19 10r58
+X 9 a-ngelfu.ads
+53V13*Sqrt{float} 19|23s30[8|18]
+X 15 a-textio.ads
+58K13*Text_IO 787e16 19|8w10 8r49
+66P9*File_Type 19|31r11
+68n23*In_File{68E9} 19|39r11
+68n32*Out_File{68E9} 19|104r13
+98U14*Create 19|104s1
+114U14*Open 19|39s1
+130U14*Close 19|46s1 115s9
+275U14*New_Line 19|113s17
+341V13*End_Of_File{boolean} 19|42s19
+512U14*Put 19|109s17 111s17
+549V13*Get_Line{string} 19|43s37
+566U14*Put_Line 19|117s1
+X 16 a-tiflio.ads
+71U14*Put 19|110s17[4|20] 112s17[4|20]
+X 19 histogram.adb
+14U11*histogram 14b11 119l5 119t14
+18a1 S{string}
+22i1 N{integer} 23r41 25r23 53r23 64r23 81r31
+23i1 nbin{integer} 24r23 72r34 78r23 92r23 98r23 108r23
+24a1 hist(float) 79m17 83m33 83r44 93r32 99m17 99r28 112r26
+25a1 x(float) 43m17 51r12 54r20 55r33 62r12 65r20 66r33 82r30 82r69
+26f1 xmax{float} 62m1 65r27 66m25 72r13
+26f7 xmin{float} 51m1 54r27 55m25 72r20 82r39 82r76 110r41
+27f1 summ{float} 90m1 93m17 93r25 99r38
+28f1 dx{float} 72m1 82r61 82r94 110r59
+29i1 i{integer} 40m1 43r19 44m17 44r22 50m1 61m1 80m17 89m1 96m1 106m1
+29i4 j{integer} 76m1
+31p1 fR{15|66P9} 39m7 39r7 42r32 43r46 46m8 46r8
+31p5 fW{15|66P9} 104m9 104r9 109r22 110r22 111r22 112r22 113r26 115m16 115r16
+32a1 FNr{string} 39r20
+33a1 FNw{string} 104r23 117r45
+53i13 i{integer} 54r22 55r35
+64i13 i{integer} 65r22 66r35
+78i13 j{integer} 79r22 82r52 82r89 83r38 83r49
+81i21 i{integer} 82r32 82r71
+92i13 i{integer} 93r37
+98i13 i{integer} 99r22 99r33
+108i13 i{integer} 110r54 112r31
+
