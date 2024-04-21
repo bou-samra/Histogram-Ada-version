@@ -31,7 +31,15 @@ type the following commands:
 ## Misc.
 * I have included both uniform and gaussian (normal) distribution data files.
 * Gnuplot or some equivelant application is required to graph the histogram data.
-* I find `gnuplot` then `plot 'dist3.dat' using 1:2 smooth freq w boxes` works well (see png file for sample output).
+* I find:
+
+`gnuplot`
+
+`set style fill solid border -1 `
+
+`plot 'gauss.out' using 1:2 smooth freq w boxes`
+
+works well (see png file for sample output).
 
 
 ## Todo
