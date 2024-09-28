@@ -27,6 +27,8 @@ type the following commands:
 
 `gnatlink histogram`
 
+## Screenshot
+![Histogram-Ada-version](https://github.com/bou-samra/Histogram-Ada-version/blob/main/gauss.out.png)
 
 ## Misc.
 * I have included both uniform and gaussian (normal) distribution data files.
